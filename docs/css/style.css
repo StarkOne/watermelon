@@ -477,7 +477,7 @@ p{
     
 }
 .panel__item:hover{
-    box-shadow: 0 0 50px #ec1b31;
+    box-shadow: 0 0 75px #EC1B31;
 }
 .arb{
     background: url("../images/watermelon.png") no-repeat 3px 6px;
