@@ -548,9 +548,9 @@ p{
 					content: '';
 					position: absolute;
 					top: 0;
-					left: 0;
-					background: url('../images/foto.jpg');
-					width: 100%;
+					left: -333px;
+                    background: url(../images/foto.jpg);
+                    width: 400px;
 					height: 100%;
 					z-index: 1;
 				}
