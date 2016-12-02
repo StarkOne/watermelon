@@ -477,7 +477,7 @@ p{
     
 }
 .panel__item:hover{
-    box-shadow: 0 0 50px #009245;
+    box-shadow: 0 0 50px #ec1b31;
 }
 .arb{
     background: url("../images/watermelon.png") no-repeat 3px 6px;
@@ -543,7 +543,7 @@ p{
 					meant to help mask blurriness, but you can remove it if you don't like it.
 				*/
 			
-				#me .pic:before
+				/*#me .pic:before
 				{
 					content: '';
 					position: absolute;
@@ -554,7 +554,7 @@ p{
 					height: 100%;
 					z-index: 1;
 				}
-
+*/
 /*********************************************************************************/
 /* Footer                                                                        */
 /*********************************************************************************/
