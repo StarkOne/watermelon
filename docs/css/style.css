@@ -543,18 +543,18 @@ p{
 					meant to help mask blurriness, but you can remove it if you don't like it.
 				*/
 			
-				/*#me .pic:before
+				#me .pic:before
 				{
 					content: '';
 					position: absolute;
 					top: 0;
-					left: -333px;
+					left: 0;
                     background: url(../images/foto.jpg);
                     width: 400px;
 					height: 100%;
 					z-index: 1;
 				}
-*/
+
 /*********************************************************************************/
 /* Footer                                                                        */
 /*********************************************************************************/
