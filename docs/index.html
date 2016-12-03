@@ -11,13 +11,13 @@
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 		<script src="js/jquery-1.9.1.min.js"></script>
 		<script src="css/5grid/init.js?use=mobile,desktop"></script>
 		<script src="js/jquery.formerize-1.1.js"></script>
-		<script src="js/jquery.bxslider.min.js"></script>
 		<script src="js/init.js"></script>
+		<script src="js/jquery.bxslider.min.js"></script>
 		<link rel="stylesheet" href="js/jquery.bxslider.css">
-		<script src="js/js.js"></script>
 		<noscript>
 			<link rel="stylesheet" href="css/5grid/core.css" />
 			<link rel="stylesheet" href="css/5grid/core-desktop.css" />
@@ -29,6 +29,11 @@
 		</noscript>
 		
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
+		<script>
+            $(document).ready(function(){
+              $('.bxslider').bxSlider();
+            });
+        </script>
 	</head>
 	<body class="homepage">
 
